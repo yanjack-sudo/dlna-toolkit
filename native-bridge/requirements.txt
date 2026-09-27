@@ -1,0 +1,6 @@
+# native-bridge 依赖（都是纯 Python 轮子，Windows/Linux/macOS 都有）
+unicorn>=2.0
+capstone>=5.0
+pyelftools>=0.30
+cryptography>=42.0
+httpx>=0.27

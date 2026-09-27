@@ -1,0 +1,23 @@
+# 运行产物
+proxy_full.log*
+captured_urls.txt*
+__pycache__/
+*.pyc
+*.bak
+
+# 依赖 / 本地目录
+pylibs/
+.venv/
+venv/
+
+# 不要提交任何动态库、APK 或反编译产物
+*.so
+*.apk
+*.dex
+*.aar
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
